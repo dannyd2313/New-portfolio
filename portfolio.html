@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-   
+
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
 
 </head>
 
@@ -22,43 +24,51 @@
         </div>
     </header>
 
-    <div id="main-container" class="container">
+    <div id="mainbodycontainer" class="container">
         <section class="main-section">
             <h1>Portfolio</h1>
 
-            <div class="work">
-                <img src="assets/images/007.jpg" alt="Trivia Game">
-                <h3>
-                <a href=" https://dannyd2313.github.io/trivia-game/">Trivia Game</a>
-                </h3>
+            <div class="row">
+                <div class="card" class="col-sm-6" style="width: 18rem; margin: 10px;">
+                    <img src="https://media.giphy.com/media/wqb5K5564JSlW/giphy.gif" class="card-img-top" alt="GifTastic">
+                    <div class="card-body">
+                        <h5 class="card-title">GifTastic</h5>
+                        <p class="card-text">for this project I used the following ....</p>
+                        <a href="https://dannyd2313.github.io/GifTastic/index.html" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </div>
+                <div class="card" class="col-sm-6" style="width: 18rem; margin: 10px;">
+                    <img src="./assets/images/007.jpg" class="card-img-top" alt="trivia-game">
+                    <div class="card-body">
+                        <h5 class="card-title">Trivia Game</h5>
+                        <p class="card-text">for this project I used the following ....</p>
+                        <a href="https://dannyd2313.github.io/trivia-game/" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </div>
+                <br />
+
+                <div class="card" class="col-sm-6" style="width: 18rem; margin: 10px;">
+                    <img src="./assets/images/ansr.jpg" class="card-img-top" alt="Project #1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project #1</h5>
+                        <p class="card-text">for this project I used the following ....</p>
+                        <a href="https://ansr.herokuapp.com/" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </div>
             </div>
-            <div class="work">
-                <img src="https://media.giphy.com/media/wqb5K5564JSlW/giphy.gif"  alt="GifTastic">
-
-                <h3>
-                <a href="https://dannyd2313.github.io/GifTastic/index.html">GifTastic</a>
-                </h3>
+            <div class="row">
+                <div class="card" class="col-sm-6">
+                    
+                </div>
+                <div class="card" class="col-sm-6" style="width: 18rem;">
+                    <img src="assets/images/Crystal Colector.jpg" class="card-img-top" alt="Crystal Colector">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystal Colector</h5>
+                        <p class="card-text">This project is HTML, CSS, JavaScript.</p>
+                        <a href="https://dannyd2313.github.io/Crystal-Colector/." class="btn btn-primary">Let's Go</a>
+                    </div>
+                </div>
             </div>
-            <div class="work">
-                <img src="assets/images/ansr.img" alt="Project 1">
-
-                <h3>
-                <a href="https://ansr.herokuapp.com/">2nd School Project</a>  
-                </h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/Crystal Colector.jpg" alt="Crystal Colector">
-
-                <h3>
-                    <a href="https://dannyd2313.github.io/Crystal-Colector/.">Crystal Colector</a>
-                </h3>
-            </div>
-            <!-- <div class="work">
-                <img src="assets/images/pork-cut.jpg" alt="Rock Paper Scissors">
-
-                <h3>Pork Cut chart</h3>
-            </div> -->
-
         </section>
 
     </div>
