@@ -21,15 +21,16 @@ body {
     margin: 0 auto;
     clear: both;
   }
-  
-  
+/*   
+  h1,
   h2,
-  h3,
-  p {
+  h3 {
     color: whitesmoke;
     margin-bottom: 20px;
     font-size: 25px;
-  }
+  } */
+
+  
   
   p:last-child {
     margin-bottom: 0;
@@ -43,19 +44,20 @@ body {
     color: #4a58aa;
   }
   
-  h1 {
+  p {
     padding-bottom: 20px;
     font-size: 35px;
-    line-height: 49px;
-    border-bottom: 3px solid #dddddd;
-    margin-bottom: 20px;
+    /* line-height: 49px; */
+    /* border-bottom: 3px solid #dddddd; */
+    color: #ffffff
+
   }
-  
+/*   
   h2,
   h3 {
     font-size: 22px;
   }
-  
+   */
   /* header */
   
   #masthead {
@@ -121,16 +123,18 @@ body {
     height: 50px;
   }
   
-  h3, h2 {
+  /* h3, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eeeeee;
-  }
+  } */
   
   /* main */
   
   #mainbodycontainer {
+    margin: auto;
+    display: block;
     padding-top: 130px;
     min-height: calc(100vh - 70px);
     text-align: center;
@@ -139,6 +143,7 @@ body {
   
   .main-section {
     /* float: left; */
+    display: block;
     width: 100%;
     max-width: 960px;
     padding: 30px;
@@ -147,49 +152,13 @@ body {
     border: 1px solid #dddddd;
   }
   
-  /* portfolio page */
-  
-  .work {
-    position: relative;
-    float: left;
-    width: 300px;
-    margin: 25px;
-    overflow: auto;
-  }  
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 1;
-    /* background-image: url("https://media.giphy.com/media/wqb5K5564JSlW/giphy.gif"); */
-    size: 50;
-   }
-  
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-  }
-  
   .photo {
     float: left;
     width: 200px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
-    transform:  rotate(180deg);
+    /* transform:  rotate(180deg); */
   }
   
   /* contact page */
@@ -231,7 +200,7 @@ body {
     border: 0 none;
   }
   
- @media only screen and (max-width: 600px){
+ /* @media only screen and (max-width: 600px){
   body{
     background: red;
     
@@ -242,4 +211,4 @@ body {
     width: 50%; 
     background: #999
   }
-} 
+}  */
